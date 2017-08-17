@@ -1,8 +1,8 @@
-# lets-react-2-routerv4-mobx
-
-[Edit this project on StackBlitz](https://stackblitz.com/edit/lets-react-2-routerv4-mobx)
+# lets-react-2-routerv4-redux
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
+
+This application is part of a series of applications used as part of the "Lets React" Group Learning Workshops being run by In3 - the [Inclusive Innovation Incubator](www.in3dc.com)
 
 Below you will find some information on how to perform common tasks.<br>
 You can find the most recent version of this guide [here](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md).
