@@ -1,9 +1,9 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom'
 //@observer
 class PersonComponent extends React.Component {
   render() {
-    let {person, deleteItem, index, match} = this.props
+    let {person, deleteItem, index} = this.props
     return (
       <div style={{
         display: 'flex',

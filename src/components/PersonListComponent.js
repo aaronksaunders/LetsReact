@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { observer } from 'mobx-react';
 import PersonComponent from './PersonComponent'
 
@@ -6,7 +6,7 @@ import PersonComponent from './PersonComponent'
 //@observer
 class PersonListComponent extends React.Component {
   render() {
-    let {data, deleteItem, persons} = this.props
+    let { deleteItem, persons} = this.props
     return (
       <div>
         {persons.map((person, index) => {
