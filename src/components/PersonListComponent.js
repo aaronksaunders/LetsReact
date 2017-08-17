@@ -1,20 +1,25 @@
-import React from 'react';
+import React, { Component } from 'react';
+import { observer } from 'mobx-react';
 import PersonComponent from './PersonComponent'
 
 
-const PersonListComponent = ({ data, deleteItem, persons }) => {
-
-  return (
-    <div>
-      {persons && persons.map((person, index) => {
-        return (
-          <PersonComponent person={person}
-            deleteItem={() => deleteItem(person)}
-            key={person + person.id} />
-        )
-      })}
-    </div>
-  )
+//@observer
+class PersonListComponent extends React.Component {
+  render() {
+    let {data, deleteItem, persons} = this.props
+    return (
+      <div>
+        {persons.map((person, index) => {
+          return (
+            <PersonComponent person={person}
+              deleteItem={() => deleteItem(index)}
+              index={index}
+              key={person + index} />
+          )
+        })}
+      </div>
+    )
+  }
 }
 
-export default PersonListComponent
+export default  observer(PersonListComponent)
