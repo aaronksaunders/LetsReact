@@ -1,3 +1,8 @@
+
+- Follow this branch for [lets-react-2-routerv4-redux sample app](https://github.com/aaronksaunders/LetsReact/tree/lets-react-2-routerv4-redux)
+- Follow this branch for [lets-react-2-routerv4-mobx sample app](https://github.com/aaronksaunders/LetsReact/tree/lets-react-2-routerv4-mobx)
+#
+
 # lets-react-2-routerv4-mobx
 
 
